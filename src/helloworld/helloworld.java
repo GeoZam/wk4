@@ -7,7 +7,6 @@ public class helloworld {
 		System.out.println("Hello World!");
 		System.out.println("Wow, Java is scary!");
 		System.out.println("Eclipse is disgusting.");
-		System.out.println("I'm so tired.");
 
 	}
 
