@@ -29,6 +29,10 @@ public class Book {
 		return numberOfPages;
 	}
 	
+	public String getTitle() {
+		return title;
+	}
+	
 	public double getPrice() {
 		return price;
 	}
