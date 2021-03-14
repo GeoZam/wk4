@@ -1,0 +1,35 @@
+Q1: Choose three of the collections you have learned (concrete classes) and think of a scenario in which it
+would be most appropriate to use that collection over the others. You will be presenting the scenario to the 
+class and letting them guess what collection you are talking about.
+
+Scenario1: 
+A black box of different fruits, want to go take 1 out each time and record its type of fruit 
+in each type.
+
+Collections1:
+HashSet, LinkedHashSet, ArrayList
+
+Best Option1: HashSet, because there's no order, and don't need to be sorted. But we are calculating the amount 
+of kinds, so the kinds of fruit needs to be unique, so no duplicates.
+
+======= 
+ Scenario2:
+List students' name according to their height.
+ 
+ Collections2:
+ ArrayList, Queue, HashTable
+ 
+ Best Option2: we allow duplicates, and students are tested by order, and the result is sorted. 
+ So Queue.
+ 
+========
+ Scenario3:
+ List all the member's name in a club.
+ 
+ Collections3:
+HashMap, LinkedHashMap, ArrayList.
+ 
+ Best Option3: there might be duplicate names, and don't have to be sorted.
+ As there will typically be a member id, and it's unique and one member one key, so HashMap is the best option.
+ 
+ 

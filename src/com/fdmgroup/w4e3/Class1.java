@@ -6,21 +6,33 @@ package com.fdmgroup.w4e3;
 //4. An abstract class can have a constructor.
 //5. All variables in an interface are implicitly final, even if the final modifier is not used.
 //6. An interface can extend another interface.
-interface Interface1{
-	public int var2=0;              //Q5: variables in Interfaces are final.
+//10. Constructors can be overloaded
+//11. Methods can be overloaded.
+
+
+interface Interface1 extends Interface2{ //Q6: extend another interface
+	public int var1=0;                   //Q5: variables in Interfaces are final.
+	public void method1();               
 	
 }
 
-interface Interface2 extends Interface1{ //Q6:An interface can extend another interface.
+interface Interface2{                    //Q6:An interface can extend another interface.
+	public void method2();          
 	
 }
 public abstract class Class1 implements Interface1{ //Q3:Implement an interface.
-	public abstract void method1(); //Q1: abstract method
-	public void method2() {};       //Q1: non-abstract method
-	public int var1;                //Q2: member variables
-	public Class1() {               //Q4: constructor
-		this.var1 = var1;
+	public abstract void method3(); 				//Q1: abstract method
+	public void method4() {};       				//Q1: non-abstract method
+	public int var2;                				//Q2: member variables
+	public int var3;
+	public Class1() {               				//Q4: constructor
+		this.var2 = var2;
 	}
+	public Class1(String s1) {      				//Q10: constructors can be overloaded
+		
+	}
+	public void method3(String s1){} 				//Q11: Methods can be overloaded.
 	
 
 }
+
