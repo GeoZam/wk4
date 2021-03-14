@@ -7,13 +7,13 @@ package com.fdmgroup.w4e3;
 //15.[Wrong!] Any concrete class with an abstract class in its hierarchy must implement all abstract methods 
 //from the superclass. Abstract only restricts its first extension, but not extension of extension!!
 
-public class Class3 extends Class2{
-	
-	//Q15: we don't need to implement method3 here!
+public class Class3{
 
+	//Q15: we don't need to implement method3 here! if we add extend Class2 (But will conflict with Q9)
+
+	//Q9 instance of a class by using the compiler-generated no-arg constructor
 	public static void main(String[] args) {
-		Class3 class3 = new Class3(); //Q9 instance of a class by using the compiler-generated no-arg constructor
-
+		Class3 class3 = new Class3(); 
 	}
 
 }
