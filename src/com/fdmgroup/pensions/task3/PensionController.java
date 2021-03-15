@@ -2,6 +2,8 @@ package com.fdmgroup.pensions.task3;
 
 public class PensionController {
 	public void handlePensions(Person[] people) {
+		
+		//organize pension logic and view here.
 		PensionLogic pensionLogic = new PensionLogic();
 		View view = new View();
 		
